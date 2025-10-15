@@ -25,6 +25,9 @@ while running:
     else:
         print("You lose!")
 
+    # Here we use elif to add more then 2 actions at if-else construction. By this we are able to shorten and simplify this part of code.
+    
+
     if not input("Play again? (y/n): ").lower() == "y":
         running = False
 
